@@ -4,7 +4,9 @@
 
 ## datacollection.py
 
-This is the python script that grabs usernames from the HuggingFace dataset and then grabs the last 25 comments that user has made. To run this code, make sure you modify reddit_info.txt with your Reddit login information in order to receive an access token for the Reddit API. Check comments in code.
+This is the python script that grabs usernames from the HuggingFace dataset and then grabs the last 25 comments that user has made. To run this code, make sure you modify reddit_info.txt with your Reddit login information in order to receive an access token for the Reddit API and create your own CLIENT_ID and SECRET_KEY. To create your own CLIENT_ID and SECRET_KEY, go to this website: https://www.reddit.com/prefs/apps. I followed this tutorial to use the Reddit API: https://youtu.be/FdjVoOf9HN4. To access the HuggingFace dataset, you will need to run this command in the terminal: $ pip install datasets
+
+Let me know if you have any questions.
 
 
 ## HuggingFace Dataset
