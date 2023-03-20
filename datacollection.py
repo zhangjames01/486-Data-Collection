@@ -33,7 +33,7 @@ headers['Authorization'] = f'bearer {TOKEN}'
 
 # this part grabs the user comments
 for i in range(1):
-    outputFile = open("Data/output"+str(i)+".txt", "w")
+    outputFile = open("output"+str(i)+".txt", "w")
     res = requests.get('https://oauth.reddit.com/user/'+str(dataset['train'][i].get("author"))+'/comments',headers=headers)
     outputFile.write(json.dumps(res.json()))
 outputFile.close()
