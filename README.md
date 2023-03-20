@@ -14,14 +14,14 @@ Let me know if you have any questions.
 Link: https://huggingface.co/datasets/reddit
 
 Dataset format: 
-author (string) - the username of the comment author
-body (string) - the comment text
-normalizedBody (string) - comment text but normalized
-subreddit (string) - name of the subreddit the comment was posted in
-subreddit_id (string) - the ID of the subreddit the comment was posted in 
-id (string) - I don't know exactly what this is
-content (string) - comment text but with the "tl;dr" sections removed
-summary (string) - the "td;dr" text of the comment
+- author (string) - the username of the comment author
+- body (string) - the comment text
+- normalizedBody (string) - comment text but normalized
+- subreddit (string) - name of the subreddit the comment was posted in
+- subreddit_id (string) - the ID of the subreddit the comment was posted in 
+- id (string) - I don't know exactly what this is
+- content (string) - comment text but with the "tl;dr" sections removed
+- summary (string) - the "td;dr" text of the comment
 
 You can visualize this by looking at the HF_SampleData.txt file where I grabbed the first 1,000 datapoints and used a json formatter on it.
 
