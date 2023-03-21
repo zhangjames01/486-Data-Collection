@@ -8,8 +8,6 @@ with open('gaming_subreddits.txt','r') as file:
     for line in file:
         subreddits.append(line[:-1])
 
-print(subreddits)
-
 identified_gamers = []
 for i in range(10000):
     if(str(dataset['train'][i].get("subreddit")).lower() in subreddits):

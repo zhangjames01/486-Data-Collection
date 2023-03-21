@@ -31,9 +31,14 @@ res = requests.post('https://www.reddit.com/api/v1/access_token',
 TOKEN = res.json()['access_token']
 headers['Authorization'] = f'bearer {TOKEN}'
 
+indices = []
+with open('identified_gamers.txt','r') as file:
+    for line in file:
+        indices.append(line[:-1])
+
 # this part grabs the user comments
-for i in range(1):
-    outputFile = open("output"+str(i)+".txt", "w")
-    res = requests.get('https://oauth.reddit.com/user/'+str(dataset['train'][i].get("author"))+'/comments',headers=headers)
+for index in indices:
+    outputFile = open("Gamer_Data/output"+index+".txt", "w")
+    res = requests.get('https://oauth.reddit.com/user/'+str(dataset['train'][int(index)].get("author"))+'/comments',headers=headers)
     outputFile.write(json.dumps(res.json()))
 outputFile.close()
