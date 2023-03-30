@@ -35,3 +35,5 @@ I identified the users that are gamers by checking if the comment in the Hugging
 The Data_10000/ folder contains the data I collected from the first 10,000 usernames in the HuggingFace dataset. The data is in the form of text files written in a json format.
 
 You can visualize the format by looking at /Reddit_SampleData/. This folder contains the most recent 25 comments posted by that first 10 usernames in the HuggingFace dataset. I used a json formatter on all of the files so that they are more readable in order for us to better understand how to grab the necessary data we need from the dataset.
+
+Data was collected on March 21, 2023 around 12PM.
