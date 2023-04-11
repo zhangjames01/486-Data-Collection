@@ -1,0 +1,3 @@
+number of words: 1400682
+number of Slurs: 41
+percentage: 0.0029271454905538874%
