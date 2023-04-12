@@ -1,0 +1,22 @@
+{
+  "words":[
+    "bitch",
+    "h00r",
+    "h0ar",
+    "h0re",
+    "hoar",
+    "hoor",
+    "hoore",
+    "scank",
+    "slag",
+    "slut",
+    "sluts",
+    "Slutty",
+    "slutz",
+    "wh00r",
+    "wh0re",
+    "whore",
+    "cunt",
+    "fanny"
+  ]
+}

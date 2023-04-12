@@ -1,0 +1,15 @@
+{
+  "words":[
+    "jap",
+    "japs",
+    "n1gr",
+    "nigger;",
+    "nigur;",
+    "niiger;",
+    "niigr;",
+    "chink",
+    "nazi",
+    "nigga",
+    "nigger"
+  ]
+}
