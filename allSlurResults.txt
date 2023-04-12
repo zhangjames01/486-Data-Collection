@@ -1,3 +1,12 @@
 number of words: 5310579
-number of Slurs: 1462
-percentage: 0.027529954831667133%
+number of slurs: 1462
+percentage: 0.027529954831667133% 
+
+number of slurs for category general: 533
+percentage: 0.010036570400327346%
+number of slurs for category LGBTQ: 87
+percentage: 0.001638239446207278%
+number of slurs for category racist: 552
+percentage: 0.010394346831108247%
+number of slurs for category sexist: 290
+percentage: 0.00546079815402426%
