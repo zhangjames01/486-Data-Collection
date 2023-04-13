@@ -37,3 +37,9 @@ The Data_10000/ folder contains the data I collected from the first 10,000 usern
 You can visualize the format by looking at /Reddit_SampleData/. This folder contains the most recent 25 comments posted by that first 10 usernames in the HuggingFace dataset. I used a json formatter on all of the files so that they are more readable in order for us to better understand how to grab the necessary data we need from the dataset.
 
 Data was collected on March 21, 2023 around 12PM EST.
+
+## Badwords Source
+The list of slur terms used was based off of a .json file availiable from a public Github repository using the MIT License, located here:
+https://github.com/web-mech/badwords/blob/master/lib/lang.json
+
+Link to the repository itself: https://github.com/web-mech/badwords
