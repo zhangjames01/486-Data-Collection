@@ -43,3 +43,18 @@ The list of slur terms used was based off of a .json file availiable from a publ
 https://github.com/web-mech/badwords/blob/master/lib/lang.json
 
 Link to the repository itself: https://github.com/web-mech/badwords
+
+## data_classication
+Python script that extracts the gamer and general posts contents into .txt files respectively for use in data_analysis_categorzied.py
+
+## data_analysis_categorized.py
+Python script that first reads in the list of the slur terms, as well as the lists for each category of slur terms
+Then goes through the extracted post content from the gamers and general posts and looks for matches, then produces final statistics in an output file
+To run:
+    Include a .txt file of the list of slur terms in a .json format in the same directory
+        Name it list-of-bad-words.txt
+    Include a folder called bad_words_by_category in the same directory
+        Should contain subset of the original list of slur terms - name each file based on the category
+    Include the extracted posts content for gamer and general users in the same directory
+        Should be named all_gamer_words.txt and all_words respectively
+

@@ -75,6 +75,8 @@ def main():
             
     # print(numGamers)
     
+    # gamerOutputFile = "all_gamer_words.txt"
+    # allOutputFile = "all_words.txt"
 
     for userid in users:
         if userid in gamerIds:
