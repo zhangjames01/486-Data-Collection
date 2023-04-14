@@ -4,7 +4,9 @@
 
 ## datacollection.py
 
-This is the python script that grabs usernames from the HuggingFace dataset and then grabs the last 25 comments that user has made. To run this code, make sure you modify reddit_info.txt with your Reddit login information in order to receive an access token for the Reddit API and create your own CLIENT_ID and SECRET_KEY. To create your own CLIENT_ID and SECRET_KEY, go to this website: https://www.reddit.com/prefs/apps. I followed this tutorial to use the Reddit API: https://youtu.be/FdjVoOf9HN4. Here is the link to the Reddit API documentation: https://www.reddit.com/dev/api/. To access the HuggingFace dataset, you will need to run this command in the terminal: $ pip install datasets
+This is the python script that grabs usernames from the HuggingFace dataset and then grabs the last 25 comments that user has made. To run this code, make sure you modify reddit_info.txt with your Reddit login information in order to receive an access token for the Reddit API and create your own CLIENT_ID and SECRET_KEY. To create your own CLIENT_ID and SECRET_KEY, go to this website: https://www.reddit.com/prefs/apps. I followed this tutorial to use the Reddit API: https://youtu.be/FdjVoOf9HN4. Here is the link to the Reddit API documentation: https://www.reddit.com/dev/api/. To access the HuggingFace dataset, you will need to run this commands in the terminal: 
+    $ pip install datasets
+    $ pip install requests
 
 Let me know if you have any questions.
 
@@ -57,4 +59,13 @@ To run:
         Should contain subset of the original list of slur terms - name each file based on the category
     Include the extracted posts content for gamer and general users in the same directory
         Should be named all_gamer_words.txt and all_words respectively
+
+Required libraries:
+    NTLK
+        install by using 'pip install nltk' and 'pip install numpy'
+        once installed, you will need to run the python3 interpreter in the terminal and run the following commands
+            import nltk
+            nltk.download()
+        In the popup, click on the 2nd leftmost tab
+        Navigate with the ARROW KEYS (clicking does not seem to work) and download stopwords and wordnet packages
 
